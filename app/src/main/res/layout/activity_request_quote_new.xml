@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@null"
+        android:id="@+id/sectionScroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rv_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_100sdp"
+                android:layout_below="@+id/top_layout">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/form_layout"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp">
+                    <!--Quote FORM-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:orientation="vertical">
+                        <!--First Name-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/firstName"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/first_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_quote_user_ico"
+                                android:drawablePadding="12dp"
+                                android:singleLine="true"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/black"
+                                android:inputType="textEmailAddress"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:textSize="14sp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <!--Last Name-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/lastName"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/last_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_quote_user_ico"
+                                android:drawablePadding="12dp"
+                                android:singleLine="true"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/black"
+                                android:inputType="textEmailAddress"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:textSize="14sp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <!--Email Address-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email_add"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/email_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_quote_email_ico"
+                                android:drawablePadding="12dp"
+                                android:singleLine="true"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/black"
+                                android:inputType="textEmailAddress"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:textSize="14sp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <!--Phone Number-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/contact_number"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/phoneNumber"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_quote_phone_ico"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/black"
+                                android:inputType="number"
+                                android:maxLength="10"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:textSize="14sp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <!--Custom Instruction-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/custom_instruction"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/custom_instruction"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_quote_instruction_ico"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:inputType="textEmailAddress"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <!--Custom Instruction-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_60sdp"
+                            android:hint="@string/translateTto"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/translate_to"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_translate"
+                                android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/black"
+                                android:inputType="number"
+                                android:maxLength="10"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:textSize="14sp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <!--Upload File-->
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/upload_file"
+                            android:textColorHint="@color/text_background"
+                            app:hintTextColor="@color/text_background"
+                            app:boxStrokeColor="@color/text_background"
+                            app:boxCornerRadiusTopStart="@dimen/_25sdp"
+                            app:boxCornerRadiusTopEnd="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomStart="@dimen/_25sdp"
+                            app:boxCornerRadiusBottomEnd="@dimen/_25sdp"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/upload_file"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/request_quote_upload_ico"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:inputType="phone"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+                    <!--SIGNUP FORM-->
+                </FrameLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_below="@+id/form_layout"
+                    android:id="@+id/uploadFileList"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/requestQuote_bg"
+            android:layout_width="match_parent"
+            android:background="@drawable/header_shape_top"
+            android:layout_marginTop="-25dp"
+            android:layout_height="@dimen/_140sdp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:id="@+id/heading">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/back">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/back"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/header_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/requestQuote"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

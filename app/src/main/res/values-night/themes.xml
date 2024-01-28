@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MontesinoTranslation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+
+    <style name="ModalWhite" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_background_white</item>
+    </style>
+
+    <style name="BottomSheetStyleWhite" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalWhite</item>
+    </style>
+
+    <style name="MonthPickerDialogStyle">
+        <item name="monthBgColor">#FFFFFF</item>
+        <item name="monthBgSelectedColor">@color/red</item>
+        <item name="monthFontColorSelected">#ffffff</item>
+        <item name="monthFontColorNormal">#000000</item>
+        <item name="monthFontColorDisabled">#33000000</item>
+
+        <item name="headerBgColor">@color/red</item>
+        <item name="headerFontColorSelected">#ffffff</item>
+        <item name="headerFontColorNormal">#85ffffff</item>
+        <item name="headerTitleColor">#ffffff</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/red</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">@color/switch_grey</item>
+    </style>
+
+    <style name="Theme.MontesinoTranslation" parent="Base.Theme.MontesinoTranslation" />
+</resources>

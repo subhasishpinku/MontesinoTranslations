@@ -1,0 +1,293 @@
+<resources>
+    <string name="app_name" translatable="false">Montesino Translation</string>
+    <string name="app_dasboard">MONTESINO TRANSLATION</string>
+    <string name="network_check">Please check your internet connection</string>
+    <!--Splash Screen-->
+    <string name="version">Version 1.0</string>
+    <string name="copyright">Copyright 2023 Allrights Reserved</string>
+    <!--Choice Screen-->
+    <string name="certified">Certified Translation for USCIS</string>
+    <string name="lang_convert">40+ LANGUAGES TRANSLATED</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Login</string>
+    <string name="self_checkout">Self Checkout</string>
+    <string name="request_quote">Request a Quote</string>
+    <string name="track_order">Track Order\nwithout LOGIN</string>
+    <string name="guarantee_text">100% Guaranteed Acceptance by US Immigration</string>
+    <!--Sign Up Screen-->
+    <string name="enter_name">Enter Name</string>
+    <string name="email_add">Email Address</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="password">Enter Password</string>
+    <string name="re_password">Re-Enter Password</string>
+    <!--Sign Up Screen Validation-->
+    <string name="sign_up_validation_your_name">Please enter your name</string>
+    <string name="sign_up_validation_your_email">Please enter your email address</string>
+    <string name="sign_up_validation_your_email_valid">Please enter valid email address</string>
+    <string name="sign_up_validation_your_phone">Please enter mobile number</string>
+    <string name="sign_up_validation_your_phone_valid">Please enter valid mobile number</string>
+    <string name="sign_up_validation_your_password">Please enter password</string>
+    <string name="validation_your_password_short">Password must be be 6 character long</string>
+    <string name="sign_up_validation_your_cnf_password">Please re-enter the password</string>
+    <string name="sign_up_validation_your_cnf_password_short">Confirm password must be be 6 character long</string>
+    <string name="sign_up_validation_your_cnf_password_wrong">Confirm password mismatch</string>
+    <!--Log in Screen-->
+    <string name="forgot_password">Forgot Your Password?</string>
+    <string name="new_user">If you are a new user please </string>
+    <string name="here"> here</string>
+    <string name="contact">In case of any issue contact 1800-371-5607\ninfo@montesinotranslation.com</string>
+    <!--Log in Screen Validation-->
+    <string name="log_in_validation_your_email">Please enter email address</string>
+    <string name="log_in_validation_your_email_valid">Please enter valid email address</string>
+    <string name="c">Please enter login password</string>
+    <!--Forgot Password-->
+    <string name="forgot_your_password">Forgot Password</string>
+    <string name="next_phase">Next</string>
+    <string name="forgot_pass_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_new_passwords">Enter new password</string>
+    <string name="enter_confirm_passwords">Enter Confirm Password</string>
+    <string name="update_password">Update Password</string>
+    <!--Forgot Password Validation-->
+    <string name="forgot_pass_email_validation">Please enter email address</string>
+    <string name="forgot_pass_email_validation_email_valid">Please enter valid email address</string>
+    <!--RequestQuote Screen-->
+    <string name="requestQuote">Request Quote</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="custom_Instruction">Custom Instruction</string>
+    <string name="upload_File">Upload File</string>
+    <string name="translate_from">Translate From *</string>
+    <string name="translate_to">Translate To *</string>
+    <string name="choose_Your_Language">Choose Your Language</string>
+    <string name="no_of_pages">No. of Pages *</string>
+    <string name="page_1">Pages 1</string>
+    <string name="submit">Submit</string>
+    <string name="text_requestQuote">Disclaimer: If we deem that the number of pages entered is incorrect we will contact you, so you can pay the difference or so we refund you accordingly. (In the case where you have over paid)</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!--    Job List -->
+    <string name="job_list">Job List</string>
+    <!--    Navigation bar text -->
+    <string name="translation_dollar">Translation Dollar</string>
+    <string name="us_dollar">US$</string>
+    <string name="usDollar">13.00</string>
+    <string name="order_now">Order Now</string>
+    <string name="if_you_know_how_many_pages_you_have">If you know how many\npages you have</string>
+    <string name="submitAQuote">Submit A Quote</string>
+    <string name="if_you_unsure_about">If you unsure about\nprice or have large file</string>
+    <string name="jobs">Jobs</string>
+    <string name="list_of_my_Order">List of my Order</string>
+    <string name="my_Account">My Account</string>
+    <string name="manage_Personal_information">Manage Personal information\nAddress Information &amp; Payment\nInformation</string>
+    <string name="keep_track_of_your_Order">Keep track of your Order</string>
+    <string name="track_Order">Track Order</string>
+    <string name="user_Management">User Management</string>
+    <string name="add_Manage_User">Add Manage / User</string>
+    <string name="sign_Out">Sign Out</string>
+    <string name="logout_from_this_device">Logout from this device</string>
+    <string name="appNames">Montesino Transiation 2024</string>
+    <string name="appVersion">Version 0.01</string>
+    <!--    JobList Design Adapter -->
+    <string name="invNumber">Invoice Number</string>
+    <string name="jobName">Job Name</string>
+    <string name="companyName">Company Name</string>
+    <string name="assignedTo">Assigned To</string>
+    <string name="translates_from">Translate From</string>
+    <string name="translates_to">Translate To</string>
+    <string name="completed_paid">COMPLETED &amp; PAID</string>
+    <string name="pay">PAY</string>
+    <string name="pdf">PDF</string>
+    <!--Account -->
+    <string name="Personal_Information">Personal Information</string>
+    <string name="credit_debitcards">Credit/Debit Cards</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="payment_history">Payment History</string>
+    <string name="change_password">Change Password</string>
+    <!--Job Options-->
+    <string name="job_option">Job Option</string>
+    <string name="job_option_pay">Pay</string>
+    <string name="job_option_pdf_view">Pdf View</string>
+    <string name="job_option_delete">Delete</string>
+    <string name="job_option_cancel">Cancel</string>
+    <!--Personal Information -->
+    <string name="full_name">Full Name</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="company_name">Company Name</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="account_number">Account Number</string>
+    <string name="reward_amount">Reward Amount</string>
+    <string name="please_Check_Your_Internet_Connection">Please Check Your Internet Connection</string>
+    <!--Shipping Address -->
+    <string name="address_title">Address</string>
+    <string name="shipping_address_adapter">Address</string>
+    <!--Quote-->
+    <string name="custom_instruction">Custom Instruction</string>
+    <string name="upload_file">Upload File</string>
+    <string name="translateTto">Translate To</string>
+    <string name="type_and_search">Type and Search</string>
+    <string name="select_language">Select Language</string>
+    <string name="lang_select">Please select language first</string>
+    <string name="file_size">File Size:</string>
+    <string name="word_count">Word Count:</string>
+    <!--Image Selection-->
+    <string name="select_image">Select Image</string>
+    <string name="photo">Take Photo</string>
+    <string name="gallery">Choose From Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_billing_address">Add Billing Address</string>
+    <string name="add_shipping_address">Add Shipping Address</string>
+    <!--billing address bottom sheet-->
+    <string name="country">Country <font color='#CA1B29'>*</font></string>
+    <string name="address1">Address 1 <font color='#CA1B29'>*</font></string>
+    <string name="address2">Address 2 </string>
+    <string name="city">city <font color='#CA1B29'>*</font></string>
+    <string name="states">State <font color='#CA1B29'>*</font></string>
+    <string name="zipCode">Zip Code <font color='#CA1B29'>*</font></string>
+    <string name="save">SAVE</string>
+    <string name="reset">RESET</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_zipcode">Enter Zip Code</string>
+    <string name="select_country">Select Country</string>
+    <!--payment history adapter-->
+    <string name="quoted_amount">Quoted Amount</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="transaction_dollar_used">Transaction Dollar Used</string>
+    <string name="approved">Approved</string>
+    <string name="reject">Reject</string>
+    <string name="pending">Pending</string>
+    <!--Credit/Debit-->
+    <string name="search">Search</string>
+    <!--Change Password-->
+    <string name="oldPassword">Enter your current password</string>
+    <string name="password_change">Enter your password</string>
+    <string name="res_password">Re-Enter your password</string>
+    <string name="pass_update">Update</string>
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="new_password_must_be_6_character_long">New password must be 6 character long</string>
+    <string name="re_enter_new_password">Re-Enter your new password</string>
+    <string name="confirm_password_mismatch">Re-Enter your new password mismatch</string>
+    <!--Card-->
+    <string name="remove_card">Are you sure you want to remove the card?</string>
+    <string name="add_credit_debit">Add Card Details</string>
+    <string name="edit_credit_debit">Edit Card Details</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="card_holder_nick_name">Card Holder Nickname</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_month">Expiry Month</string>
+    <string name="expiry_year">Expiry Year</string>
+    <string name="card_save_button">Save</string>
+    <string name="card_cancel_button">Cancel</string>
+    <string name="card_already_expired">Card is already expired</string>
+    <string name="card_holder_name_validation">Please enter card holder name</string>
+    <string name="card_number_validation">Please enter card number</string>
+    <string name="card_re_number_validation">Please Re-Enter Card Number</string>
+    <string name="card_expiry_month">Please select expiry month</string>
+    <string name="card_expiry_year">Please select expiry year</string>
+    <!--Logout-->
+    <string name="you_sure_that_you_want_to_logout">Are you sure, that you want to logout?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <!--Job List Details-->
+    <string name="company">Company</string>
+    <string name="quote_amount">Quote Amount</string>
+    <string name="translation_dollar_used">Translation Dollar Used</string>
+    <string name="paid_amounts">Paid Amount</string>
+    <string name="translation_amount">Translation Amount</string>
+    <string name="track_job_status">Track Job Status</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="pdf_view">PDF VIEW</string>
+    <!--User Management-->
+    <string name="add_user">Add User Details</string>
+    <string name="acc_no">ACC NO:</string>
+    <string name="change_option">Change Option</string>
+    <string name="make_staff">Make Staff</string>
+    <string name="make_admin">Make Admin</string>
+    <string name="passwords">Password</string>
+    <string name="confirm_passwords">Confirm Password</string>
+    <string name="staff">Staff</string>
+    <string name="admin">Admin</string>
+    <string name="change_permission">Are you sure? You want to Change Permission For This User?</string>
+    <string name="remove_user">Are you sure? You want to remove this user?</string>
+    <!--Track order-->
+    <string name="no_track_order_found">No Track Order Found</string>
+    <string name="no_track_order_display">No Track Order Display</string>
+    <!--Job List-->
+    <string name="no_job_list_found">No Job List Found</string>
+    <string name="no_job_list_display">No Job List Display</string>
+    <!--User Management-->
+    <string name="no_user_management_found">No User Management Found</string>
+    <string name="no_user_management_display">No User Management Display</string>
+    <!--Payment History-->
+    <string name="no_payment_history_found">No Payment History Found</string>
+    <string name="no_payment_history_display">No Payment History Display</string>
+    <!--Billing Address-->
+    <string name="no_billing_address_found">No Billing Address Found</string>
+    <string name="no_billing_address_display">No Billing Address Display</string>
+    <!--Shipping  Address-->
+    <string name="no_shipping_address_found">No Shipping Address Found</string>
+    <string name="no_shipping_address_display">No Shipping Address Display</string>
+    <!--Credit/Debit Cards-->
+    <string name="no_credit_debit_found">No Credit Debit Found</string>
+    <string name="no_credit_debit_display">No Credit Debit Display</string>
+    <string name="invoice">Invoice</string>
+    <!--checkout summary-->
+    <string name="checkout_summary">Checkout Summary</string>
+    <string name="transaction_total">TRANSACTION TOTAL</string>
+    <string name="total">Total</string>
+    <string name="discount">Discount</string>
+    <string name="expedite_charge">Expedite Charge</string>
+    <!--submit a quote-->
+    <string name="translate_to_text">That the system detects the language of the file. There is no need to place the language of the source files.</string>
+    <string name="custom_instructions_text_1">If the languages you need translated do not use the Roman Alphabet(ABCD..Etc.) Please enter the English spelling of the names on your document.\n\nExamples of some languages that need this: Arabic, Chinese, Korean, Russian, Japanese, and all Indian Languages.</string>
+    <string name="page_define_words_part_one">A page is defined as:</string>
+    <string name="page_define_words_part_two">words or fewer (including numbers), one-sided, and letter-size (8.5) Unsure? Get a quote.</string>
+    <!--payment option-->
+    <string name="payment_option">Payment Option</string>
+    <string name="do_you_want_any_notarized_copy">Do You want any notarized copy?</string>
+    <string name="select_how_many_copies_you_need">Select How many copies you need</string>
+    <string name="notarized_copy">Notarized Copy</string>
+    <string name="dollars_amount">Quoted Amount</string>
+    <string name="t_dollar_use">T-Dollar Used</string>
+    <string name="coupon_amount_used">Coupon Amount Used</string>
+    <string name="notarized_amount">Notarized Cost</string>
+    <string name="use_gift_code">Use Gift Code</string>
+
+    <string name="translation_earned">Your company has $15.50 Translation Dollars earned</string>
+    <string name="translation_earned1">Your company has</string>
+    <string name="translation_earned2">Translation Dollars earned</string>
+
+    <string name="dollars_towards_purchase">Do You want to use any of these dollars towards this purchase?</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="select_payment_option">Select Payment Option</string>
+    <string name="paypal">Paypal</string>
+    <string name="credit_debit">Credit/Debit Card</string>
+    <string name="select_credit_debit">Select Credit/Debit Card</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="credit_card_b">Credit Card B</string>
+    <string name="select_billing_address">Select Billing Address</string>
+    <string name="address_c">Address C</string>
+    <string name="select_shipping_address">Select Shipping Address</string>
+    <string name="same_as_billing_address">Same as Billing Address</string>
+    <string name="select_address">Select Address</string>
+    <string name="cvv_selected">Enter the CVV the card you selected</string>
+    <string name="proceed_with_card">PROCEED WITH CARD $</string>
+    <string name="add">Add</string>
+    <string name="cvv">cvv</string>
+    <string name="Do_you_want_to_use_any_gift_card_towards_this_purchase">Do you want to use any gift card towards this purchase?</string>
+    <string name="validate">VALIDATE</string>
+    <string name="gift_code">Enter Gift Code</string>
+    <string name="coupon_code">Coupon Code</string>
+    <string name="do_you_want_to_use_any_coupon_towards_this_purchase">Do you want to use any coupon towards this purchase?</string>
+    <string name="enter_gift_code">Enter Gift Code</string>
+    <string name="enter_coupon_amount">Enter Coupon Amount</string>
+    <string name="your_enter_tx_dollar">your enter tx dollar can\'t be getter than</string>
+    <string name="payment_amount_from_tx_dollar">You can only use payment amount from tx dollar</string>
+</resources>

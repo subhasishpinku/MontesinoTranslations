@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/border"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/border"
+        android:id="@+id/heading"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_option"
+            android:fontFamily="@font/poppins_regular"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/job_options"
+            android:textSize="@dimen/_16sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_role"
+        android:layout_below="@+id/heading"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/admin_ico_black"
+            android:id="@+id/user_icon"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/make_staff"
+            android:id="@+id/user_mode"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_10sdp"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="@dimen/_1sdp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/change_role"
+        android:id="@+id/below_pay_line"
+        android:background="#5F5D6C"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_password"
+        android:layout_below="@+id/below_pay_line"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/password_ico_black"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_password"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="@dimen/_1sdp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/change_password"
+        android:id="@+id/pdf_below_line"
+        android:background="#5F5D6C"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:layout_below="@+id/pdf_below_line"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/remove_user"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job_option_delete"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="@dimen/_1sdp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/delete"
+        android:id="@+id/delete_belo_line"
+        android:background="#5F5D6C"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/delete_belo_line"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/job_option_cancel"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job_option_cancel"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

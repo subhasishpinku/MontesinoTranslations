@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/lv_list"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:background="@drawable/track_job_statues"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp">
+        <ImageView
+            android:id="@+id/image_money"
+            android:layout_gravity="center"
+            android:background="@drawable/money_pouch"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/arrow_line"
+        android:layout_below="@+id/lv_list"
+        android:layout_width="5dp"
+        android:layout_marginLeft="@dimen/_23sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@color/color_arrow" />
+    <TextView
+        android:id="@+id/track_job_listTitle"
+        android:layout_marginBottom="-7dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_toRightOf="@+id/lv_list"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:text="Submit on TE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/track_job_listSubTitle"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_toRightOf="@+id/lv_list"
+        android:layout_below="@+id/track_job_listTitle"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="bold"
+        android:textColor="@color/color_yellow"
+        android:textSize="@dimen/_12sdp"
+        android:text="In Progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

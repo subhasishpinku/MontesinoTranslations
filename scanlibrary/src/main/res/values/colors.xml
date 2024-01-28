@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#ff59a9ff</color>
+    <color name="orange">#ffff900d</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="cam_text">#6d6d6d</color>
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+    <color name="text_background">#385287</color>
+    <color name="choice_bg">#0A0636</color>
+    <color name="choice_bg_alt">#060303</color>
+    <color name="choice_divider">#595A5A5A</color>
+    <color name="header_color">#CA1B29</color>
+
+</resources>

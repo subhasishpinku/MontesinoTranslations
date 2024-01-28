@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScanLibrary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanning">Scanning</string>
+    <string name="done">Save</string>
+    <string name="scan">Next</string>
+    <string name="cantCrop">Cant crop the image, change the points</string>
+    <string name="ok">Ok</string>
+    <string name="loading">Loading</string>
+    <string name="applying_filter">Applying filter</string>
+    <string name="low_memory">Low Memory</string>
+    <string name="low_memory_message">Your phone is low on memory, you may feel some lags while editing images.</string>
+    <string name="retake">Retake</string>
+    <string name="original">Original</string>
+    <string name="magic_color">Magic Color</string>
+    <string name="grey_scale">Grey Scale</string>
+    <string name="b_w">B/W</string>
+    <string name="crop">Crop</string>
+    <string name="add_new">Add New</string>
+    <string name="finish">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="select_image">Select Image</string>
+    <string name="photo">Take Photo</string>
+    <string name="gallery">Choose From Gallery</string>
+    <string name="credit_card">Credit Card</string>
+</resources>

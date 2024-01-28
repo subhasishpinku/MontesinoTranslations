@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/_5sdp">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/left_side_user"
+        android:id="@+id/user_icon_layout">
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:id="@+id/user_icon"
+            android:src="@drawable/admin_ico"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:background="@drawable/right_side_user">
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv_head"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:background="@drawable/right_side_user">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:id="@+id/row_id">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:id="@+id/user_name"
+                android:textColor="@color/user_management_row_one"
+                android:textSize="@dimen/_14sdp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="AC No: 2568985655"
+                android:id="@+id/account_no"
+                android:gravity="end"
+                android:textColor="@color/user_management_row_one"
+                android:textSize="@dimen/_11sdp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:layout_below="@+id/row_id">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="user@emailaddress.com"
+                android:id="@+id/email_address"
+                android:textColor="@color/user_management_row_one"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Company: COMPANY NAME"
+                android:id="@+id/company_name"
+                android:gravity="end"
+                android:textColor="@color/user_management_row_one"
+                android:textSize="@dimen/_11sdp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_bar_layout"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_alignParentEnd="true">
+            <TextView
+                android:id="@+id/manuBar"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textColor="@color/navbar_text"
+                android:textSize="@dimen/_15sdp"
+                android:text="⋮"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
